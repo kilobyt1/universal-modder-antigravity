@@ -1,0 +1,24 @@
+[project]
+name = "universal-modder"
+version = "0.2.0"
+description = "Tools for AI agents that mod games: engine scanner, 2D sprite pipeline, Windows game automation, save backups. Adapted for Antigravity 2.0."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "pillow>=10",
+    "numpy>=1.24",
+]
+
+[project.urls]
+"Original Repo" = "https://github.com/rehan-remade/universal-modder"
+
+[project.scripts]
+um = "um.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["um"]

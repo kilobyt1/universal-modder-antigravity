@@ -1,0 +1,12 @@
+{
+  "name": "universal-modder",
+  "displayName": "Universal Modder",
+  "description": "Game modding toolkit for Antigravity 2.0 (based on universal-modder by Rehan): engine recon, reverse engineering, 2D sprites via native generate_image, in-game automation and save backups.",
+  "version": "0.2.0",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Scan installed games and find modding routes",
+    "Create a sprite texture mod for a game",
+    "Recon game engine and setup modding lab"
+  ]
+}

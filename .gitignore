@@ -1,0 +1,38 @@
+# Environments & dependencies
+.venv/
+env/
+venv/
+uv.lock
+*.egg-info/
+build/
+dist/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Secrets & local logs
+.env
+*.env
+MODLOG.md
+*.log
+
+# Captures, audio and scratch
+*.mkv
+*.mp4
+*.audio.raw
+/scratch/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ensure CLI launchers in bin/ are tracked
+!bin/
+!bin/um.cmd
+!bin/um.ps1
+!bin/um
