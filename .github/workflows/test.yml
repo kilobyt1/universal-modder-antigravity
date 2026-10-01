@@ -8,4 +8,4 @@ jobs:
       - uses: astral-sh/setup-uv@v6
       - run: sudo apt-get update && sudo apt-get install -y ffmpeg
       - run: uv run --with pytest pytest -q tests
-      - run: ./bin/um --help && for g in scan fal sprite render3d video win backup publish; do ./bin/um $g --help > /dev/null; done
+      - run: chmod +x ./bin/um && ./bin/um --help && for g in scan fal sprite render3d video win backup publish; do ./bin/um $g --help > /dev/null; done
